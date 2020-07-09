@@ -6,7 +6,7 @@ public class exerc4W {
 	public static void main(String args []) {
 		Scanner leia = new Scanner (System.in);
 		int id,gen,cp,pesc=0,mn=0,ha=0,pesnmaior=0,pescmenor=0,p=0;
-		while(p<3){
+		while(p<150){
 		System.out.printf("Digite sua idade: ");
 		id=leia.nextInt();
 		System.out.printf("Digite: |1-Feminino|*|2-Masculino| ");
